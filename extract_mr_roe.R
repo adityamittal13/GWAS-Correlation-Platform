@@ -24,7 +24,7 @@ for (exposure in exposures){
       }
     }
   }
-}
+} 
 
 df = df[order(df$pval),]
 write.csv(x = df, file = "Best_MR_Results.csv")
