@@ -1,6 +1,6 @@
 library(TwoSampleMR)
 library(dplyr)
-setwd('/Users/adityamittal/Documents/FocusHackathon/')
+setwd('/Users/adityamittal/Documents/FocusHackathon/') 
 getwd()
 ao = available_outcomes()
 # Load the downloaded RData object. This loads the rf object
